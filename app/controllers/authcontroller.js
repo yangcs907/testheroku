@@ -4,6 +4,8 @@ var express = require('express');
 var app = express();
 app.use(express.static('public'));
 
+
+
 exports.signup = function (req, res) {
 
   res.render('signup');
